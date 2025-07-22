@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://noamnorman21.github.io/my-time-tracker",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
