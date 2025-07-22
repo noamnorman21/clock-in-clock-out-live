@@ -17,11 +17,12 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 210 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 200 100% 45%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 180 100% 90%;
+    --secondary-foreground: 210 100% 20%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -53,6 +54,26 @@ All colors MUST be HSL.
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Work tracking system colors */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --info: 210 100% 50%;
+    --info-foreground: 0 0% 100%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(210 100% 50%), hsl(200 100% 45%));
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%), hsl(120 76% 40%));
+    --gradient-bg: linear-gradient(135deg, hsl(210 100% 98%), hsl(180 100% 95%));
+
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(210 100% 50% / 0.2);
+    --shadow-card: 0 4px 20px -2px hsl(210 100% 50% / 0.1);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
@@ -91,6 +112,26 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Work tracking system colors */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --info: 210 100% 50%;
+    --info-foreground: 0 0% 100%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(210 100% 50%), hsl(200 100% 45%));
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%), hsl(120 76% 40%));
+    --gradient-bg: linear-gradient(135deg, hsl(210 100% 98%), hsl(180 100% 95%));
+
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(210 100% 50% / 0.2);
+    --shadow-card: 0 4px 20px -2px hsl(210 100% 50% / 0.1);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
